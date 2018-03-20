@@ -1,0 +1,32 @@
+Install Virtualenv:
+pip install virtualenv
+
+setup virtualenv:
+virtualenv -p /usr/bin/python2.7 env
+source env/bin/activate
+
+
+
+
+
+For python2.7:
+
+
+
+python -m pip install "django<2"
+
+django-admin --version
+
+
+create project:
+django-admin startproject helloapp
+cd to helloapp
+create our ownapp:
+python manage.py startapp howdy
+
+
+
+
+
+create admin User:
+python manage.py createsuperuser
